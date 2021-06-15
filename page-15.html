@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<!-- Google fonts -->
+		<!-- <link rel="preconnect" href="https://fonts.gstatic.com" /> -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Font Awesome Css -->
+		<link rel="stylesheet" href="css/font-awesome/css/all.css" />
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/main.css" />
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="img/icons/logo-black.png" />
+		<!-- Title -->
+		<title>Cors Tech</title>
+	</head>
+	<body class="dark-mode bg-blue">
+		<!-- Navbar Start -->
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand text-white" href="#">
+				<div class="navbar-box">
+					<img src="img/icons/logo-white.png" alt="" />
+				</div>
+				<span>Cors Tech</span>
+			</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#">Dashboard</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white active" href="#">Mes programmes</a>
+					</li>
+				</ul>
+				<div class="nav-box">
+					<div class="nav-burger-box"></div>
+					<form class="nav-box-form">
+						<input type="text" class="bg-main-light" />
+						<i class="fas fa-search"></i>
+					</form>
+					<div class="nav-profile-box">
+						<img src="img/icons/profile.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- Navbar Ends -->
+
+		<!-- Blue box start -->
+		<main class="blue-box mb-5">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="blue-sidebar">
+							<!-- Shortcuts -->
+							<div class="side-list-box bg-main-light">
+								<h3 class="heading-sub heading-sub--white">Shortcuts</h3>
+
+								<ul class="side-list">
+									<li><a href="#" class="active">Activity</a></li>
+									<li><a href="#">Validation pending</a></li>
+									<li><a href="#">Payments</a></li>
+									<li><a href="#">All the clients</a></li>
+									<li>
+										<a href="#">All coaches <span>150</span></a>
+									</li>
+									<li><a href="#">Settings</a></li>
+									<li><a href="#">Other</a></li>
+								</ul>
+							</div>
+
+							<!-- program view -->
+							<div class="program-view">
+								<h3 class="heading-sub heading-sub--white">Create a program</h3>
+								<div class="program-content">
+									<a href="#" class="button button--outline-white-empty">Sports program</a>
+									<a href="#" class="button button--outline-white-empty">Event</a>
+									<a href="#" class="button button--outline-white-empty">Diet program</a>
+									<a href="#" class="button button--outline-white-empty">Article</a>
+									<a href="#" class="button button--outline-white-empty">Simple exercise</a>
+									<a href="#" class="button button--outline-white-empty">Training</a>
+									<a href="#" class="button button--outline-white-empty">Course</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-9">
+						<div class="main-dashboard">
+							<h3 class="heading-sub heading-sub--white mb-30">Create a sports program - Info</h3>
+							<div class="timeline mb-30">
+								<div class="timeline-stage">
+									<div class="timeline-circle">
+										<span>1</span>
+									</div>
+									<div class="timeline-name">
+										<h3>Infos</h3>
+									</div>
+								</div>
+								<div class="timeline-stage active">
+									<div class="timeline-circle">
+										<span>2</span>
+									</div>
+									<div class="timeline-name">
+										<h3>Search Cirteria</h3>
+									</div>
+								</div>
+								<div class="timeline-stage">
+									<div class="timeline-circle">
+										<span>3</span>
+									</div>
+									<div class="timeline-name">
+										<h3>Session</h3>
+									</div>
+								</div>
+								<div class="timeline-stage">
+									<div class="timeline-circle">
+										<span>4</span>
+									</div>
+									<div class="timeline-name">
+										<h3>Pricing</h3>
+									</div>
+								</div>
+								<div class="timeline-stage">
+									<div class="timeline-circle">
+										<span>5</span>
+									</div>
+									<div class="timeline-name">
+										<h3>Summary</h3>
+									</div>
+								</div>
+							</div>
+							<form class="form-dashboard">
+								<div class="row">
+									<div class="col-lg-8">
+										<div class="row">
+											<div class="col-lg-6">
+												<label class="dashboard-label mb-10">Recipe Name</label>
+												<input
+													type="text"
+													class="dashboard-input mb-30"
+													placeholder="My great recipe"
+												/>
+											</div>
+											<div class="col-lg-6">
+												<label class="dashboard-label mb-10">Recipe Image</label>
+												<div class="upload-wrapper mb-30">
+													<input type="file" class="dashboard-upload" />
+													<i class="fas fa-cloud-upload-alt"></i>
+												</div>
+											</div>
+											<div class="col-lg-12">
+												<label class="dashboard-label mb-10">DESCRIPTION OF THE RECETTE</label>
+												<textarea
+													rows="3"
+													class="dashboard-comment mb-30"
+													placeholder="Déscription de la recette"
+												></textarea>
+											</div>
+											<div class="col-lg-4">
+												<label class="dashboard-label mb-10">SERIES</label>
+												<div class="quantity-button-box mb-30">
+													<button class="btn-dec">
+														<i class="fas fa-minus"></i>
+													</button>
+													<input type="text" class="quantity-input" readonly="" />
+													<button class="btn-inc">
+														<i class="fas fa-plus"></i>
+													</button>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<label class="dashboard-label mb-10">TYPE OF MEAL</label>
+												<div class="dashboard-select-wrapper mb-30">
+													<select class="dashboard-select">
+														<option value="">Select a type</option>
+														<option value="">Select a type</option>
+														<option value="">Select a type</option>
+													</select>
+												</div>
+											</div>
+											<div class="col-lg-4"></div>
+											<div class="col-lg-4">
+												<div class="dashboard-weights">
+													<div class="">
+														<label class="dashboard-label mb-10">LIPIDES</label>
+														<input type="text" class="dashboard-input mb-30" placeholder="0" />
+													</div>
+													<span>g</span>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="dashboard-weights">
+													<div class="">
+														<label class="dashboard-label mb-10">SATURATED ACIDS</label>
+														<input type="text" class="dashboard-input mb-30" placeholder="0" />
+													</div>
+													<span>mg</span>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="dashboard-weights">
+													<div class="">
+														<label class="dashboard-label mb-10">STARCH</label>
+														<input type="text" class="dashboard-input mb-30" placeholder="0" />
+													</div>
+													<span>g</span>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="dashboard-weights">
+													<div class="">
+														<label class="dashboard-label mb-10">PROTEIN</label>
+														<input type="text" class="dashboard-input mb-30" placeholder="0" />
+													</div>
+													<span>g</span>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="dashboard-weights">
+													<div class="">
+														<label class="dashboard-label mb-10">PROTEIN</label>
+														<input type="text" class="dashboard-input mb-30" placeholder="0" />
+													</div>
+													<span>g</span>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="dashboard-weights">
+													<div class="">
+														<label class="dashboard-label mb-10">FIBERS</label>
+														<input type="text" class="dashboard-input mb-30" placeholder="0" />
+													</div>
+													<span>g</span>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="dashboard-weights">
+													<div class="">
+														<label class="dashboard-label mb-10">CARBOHYDRATES</label>
+														<input type="text" class="dashboard-input mb-30" placeholder="0" />
+													</div>
+													<span>g</span>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="dashboard-weights">
+													<div class="">
+														<label class="dashboard-label mb-10">SUGAR</label>
+														<input type="text" class="dashboard-input mb-30" placeholder="0" />
+													</div>
+													<span>g</span>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="dashboard-weights">
+													<div class="">
+														<label class="dashboard-label mb-10">NA (SODIUM)</label>
+														<input type="text" class="dashboard-input mb-30" placeholder="0" />
+													</div>
+													<span>g</span>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="dashboard-weights">
+													<div class="">
+														<label class="dashboard-label mb-10">CA (CALCIUM)</label>
+														<input type="text" class="dashboard-input mb-30" placeholder="0" />
+													</div>
+													<span>g</span>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="dashboard-weights">
+													<div class="">
+														<label class="dashboard-label mb-10">K (POTASSIUM)</label>
+														<input type="text" class="dashboard-input mb-30" placeholder="0" />
+													</div>
+													<span>g</span>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="dashboard-weights">
+													<div class="">
+														<label class="dashboard-label mb-10">VITAMIN C</label>
+														<input type="text" class="dashboard-input mb-30" placeholder="0" />
+													</div>
+													<span>g</span>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="dashboard-weights">
+													<div class="">
+														<label class="dashboard-label mb-10">PREPARATION</label>
+														<input type="text" class="dashboard-input mb-30" placeholder="0" />
+													</div>
+													<span>min</span>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="dashboard-weights">
+													<div class="">
+														<label class="dashboard-label mb-10">COOKING</label>
+														<input type="text" class="dashboard-input mb-30" placeholder="0" />
+													</div>
+													<span>min</span>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<label class="dashboard-label mb-10">DIFFICULTY</label>
+												<div class="dashboard-select-wrapper mb-30">
+													<select class="dashboard-select">
+														<option value="">Sélectionner type</option>
+														<option value="">Sélectionner type</option>
+														<option value="">Sélectionner type</option>
+													</select>
+												</div>
+											</div>
+											<div class="col-lg-12">
+												<label class="dashboard-label mb-10">KEYWORDS</label>
+												<input
+													type="text"
+													class="dashboard-input mb-30"
+													placeholder="Sucre, recette sport
+                                                    "
+												/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-12">
+										<div class="form-border mb-30">
+											<div class="form-list mb-30">
+												<div class="form-list-header">
+													<span>ingrediants</span>
+													<span>portions</span>
+													<span>weight</span>
+												</div>
+												<div class="form-list-row">
+													<button>Add a ingrediant</button>
+												</div>
+											</div>
+										</div>
+										<div class="form-list-2 mb-30">
+											<div class="form-list-header">
+												<span>stage name</span>
+												<span>description</span>
+											</div>
+											<div class="form-list-row">
+												<button>Add a step</button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="dashboard-footer">
+									<a href="#" class="dashboard-save">Save</a>
+									<a href="#" class="button button--white">Next</a>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!-- Blue box ends -->
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="js/jquery.js"></script>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Apex Chart -->
+		<script src="js/apex-chart/apexcharts.min.js"></script>
+		<script src="js/apex-chart/stock-prices.js"></script>
+
+		<!-- Custom JS -->
+		<script src="js/main.js"></script>
+	</body>
+</html>
